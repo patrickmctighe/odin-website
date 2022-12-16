@@ -1,0 +1,146 @@
+/*header area*/
+h1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    
+}
+.header { 
+    background-color: #1f2937;
+   display:flex;
+   flex:1;
+   justify-content: space-around;
+   align-items: center;
+}
+a {
+    color: #f9faf8;
+    text-decoration: none; 
+    font-size: 18px;
+}
+.links {
+    display:flex;
+    gap: 16px;
+}
+/*body1*/
+.body1 {
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 50px;
+    gap: 70px;
+}
+.b1title {
+    font-size:48px;
+    font-weight: 900;
+    color:#f9faf8
+}
+.textarea {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    max-width: 325px;
+}
+.button1 {
+    max-width: 100px;
+    background-color: blue ;
+    color: #f9faf8;
+    border-radius: 5px;
+    border-style: none;
+    padding-top: 5px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+/*body2*/
+
+
+.b2head {
+    display:flex;
+    justify-content: center;
+    align-self: flex-start;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 20px;
+}
+.body2 {
+   display: flex; 
+    justify-content: center;
+
+}
+.info {
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 150px;
+flex-flow: column wrap;
+font-size: 15px;
+text-align: center;
+margin-bottom: 50px;
+font-weight: 100;
+}
+/*body3*/
+
+.body3 {
+    display:flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  padding: 70px;
+}
+.qoute {
+   
+    max-width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+.thor {
+   align-self: center;
+    font-weight: 700;
+    margin-left: 500px;
+    margin-top: 25px;
+    
+}
+/*footer*/
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #e5e7eb;
+   gap:150px;
+   padding: 35px;
+   margin-left: 525px;
+   margin-right: 525px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   
+}
+
+.call {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button2 {
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: double;
+    font-weight: 600;
+}
+
